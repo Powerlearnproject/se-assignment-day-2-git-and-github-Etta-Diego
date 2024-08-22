@@ -194,9 +194,9 @@ ssh-add ~/.ssh/id_rsa
 >
 >    - Automatic (using xclip):
 >
-        ```bash
-        xclip -sel clip < ~/.ssh/id_rsa.pub
-        ```
+```bash
+xclip -sel clip < ~/.ssh/id_rsa.pub
+```
 >
 >    - Manual:
 >        - *Open ~/.ssh/id_rsa.pub and copy the key. On GitHub, go to Settings > SSH and GPG Keys, and add a new key with the copied content.*
@@ -226,21 +226,19 @@ ssh -T git@github.com
 >    - *Step 1:* Add files to the staging area:
 >        - For a single file:
 >
-    ```bash
+  ```bash
            git add <File_Name>
-    ```
->
->        - For all files in the current directory:
+  ```
+> - For all files in the current directory:
  
-        ```bash
-            git add .
-       ```
+```bash
+git add .
+```
 >
 >    **To check if files are added successfully:**
->
-    ```bash
-   git status
-    ```
+```bash
+git status
+```
 >
 >    - *Step 2:* Commit the files with a message:
 >
@@ -254,7 +252,7 @@ git commit -m "First Commit"
 
 ```bash
 git push
-```   
+```
 
 > *To verify the push, check the commit history:*
 
@@ -283,7 +281,7 @@ git log
 ```bash
 git checkout branch_name
 ```
->
+
 >    *This command creates and switches to a new branch in one step:*
 
 ```bash
