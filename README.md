@@ -7,24 +7,28 @@
 >
 > A version control, also known as source control, is a software tool that helps software teams to record changes to software codes overtime. It allows team members to change and collaborate on the same files. It maintains a record of every change complete with authorship, timestamp, and other details. Below are the fundamental concepts of version control:
 
->     - *Repository:* This is a specialized database that stores the history of software code changes. These changes include the creation and deletion of files as well as edits to their contents. This history also includes the author, date and written notes on the purpose of each change. Having the complete history enables going back to previous versions to help in root cause analysis for bugs and it is crucial when needing to fix problems in older versions of software. 
+    - *Repository:* This is a specialized database that stores the history of software code changes. These changes include the creation and deletion of files as well as edits to their contents. This history also includes the author, date and written notes on the purpose of each change. Having the complete history enables going back to previous versions to help in root cause analysis for bugs and it is crucial when needing to fix problems in older versions of software. 
 
->     - *Commit:* This is the process of submitting each  set of changes made as a single collection of actions, thereby, preserving the state of the project at that point in time. Each set of changes is committed along with a message explaining the changes.
+     - *Commit:* This is the process of submitting each  set of changes made as a single collection of actions, thereby, preserving the state of the project at that point in time. Each set of changes is committed along with a message explaining the changes.
 
->     - *Branch and Merge:* This allows software teams to work on different features or fixes without affecting the main codebase (usually called the main or master branch) and then, commbine the work back together after verifying  that the changes on each branch do not conflict.
+     - *Branch and Merge:* This allows software teams to work on different features or fixes without affecting the main codebase (usually called the main or master branch) and then, commbine the work back together after verifying  that the changes on each branch do not conflict.
 
->     - *Pull or Update Request:* This allows each software team member to have the latest version as they commit changes. Keeping the most recent version helps minimize the likelihood of conflicts. The process of obtaining the latest changes from a repository is done by performing a pull or update from another machine, typically a hosted or centralized server. When this request is made, only the changes since the last update are downloaded.
+     - *Pull or Update Request:* This allows each software team member to have the latest version as they commit changes. Keeping the most recent version helps minimize the likelihood of conflicts. The process of obtaining the latest changes from a repository is done by performing a pull or update from another machine, typically a hosted or centralized server. When this request is made, only the changes since the last update are downloaded.
 
->     - *Conflict:* This occurs when changes in two different branches contradict each other. When this happens, resolving conflicts ensures that the code integrates smoothly. In most cases, the version control system provides a way to view the differences between conflicting versions, allowing a decision to be made. The files can either be manually edited to merge the changes, or one version can be chosen over the other. 
+     - *Conflict:* This occurs when changes in two different branches contradict each other. When this happens, resolving conflicts ensures that the code integrates smoothly. In most cases, the version control system provides a way to view the differences between conflicting versions, allowing a decision to be made. The files can either be manually edited to merge the changes, or one version can be chosen over the other. 
 
 
                       **Why GitHub is a popular tool for managing versions of code.**
-> i.  *Encourages collaboration:* GitHub provides a  platform where developers can collaborate, review code, and manage projects through pull requests and code reviews. It integrates well with branching workflows, so teams can work on different tasks simultaneously.
-> ii. *Issue Tracking and Project Management:* GitHub also provides built-in tools for tracking bugs, tasks, and features, making it more than just a code-hosting platform.
-> iii. *Open Source Friendly:* GitHub hosts millions of open-source projects. Developers can contribute to other projects, making it a hub for learning, networking, and showcasing work.
-> iv.   *Integration with CI/CD Pipelines:* GitHub integrates with Continuous Integration (CI) and Continuous Deployment (CD) systems to automate testing and deployment. This ensures that code changes are automatically tested and can be deployed as soon as they're ready.
-> 
->    **How version control helps in maintaining project integrity?**
+i.  *Encourages collaboration:* GitHub provides a  platform where developers can collaborate, review code, and manage projects through pull requests and code reviews. It integrates well with branching workflows, so teams can work on different tasks simultaneously.
+
+ii. *Issue Tracking and Project Management:* GitHub also provides built-in tools for tracking bugs, tasks, and features, making it more than just a code-hosting platform.
+
+iii. *Open Source Friendly:* GitHub hosts millions of open-source projects. Developers can contribute to other projects, making it a hub for learning, networking, and showcasing work.
+
+iv.   *Integration with CI/CD Pipelines:* GitHub integrates with Continuous Integration (CI) and Continuous Deployment (CD) systems to automate testing and deployment. This ensures that code changes are automatically tested and can be deployed as soon as they're ready.
+
+ 
+        **How version control helps in maintaining project integrity?**
 > i. *Ensuring Data Integrity: The Foundation of Version Control*
 > 
 > Maintaining data integrity is essential for organizations because it influences decisions and business efficiency. In the context of version control, data integrity means that data remains accurate, consistent, and reliable throughout its lifecycle. Implementing solid version control practices helps protect data from corruption, loss, and unauthorized changes, ensuring its reliability and security.
